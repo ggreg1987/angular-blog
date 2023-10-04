@@ -1,0 +1,7 @@
+
+.container__menu-bar > ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    font-size: 30px;
+}
