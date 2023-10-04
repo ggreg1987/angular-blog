@@ -1,11 +1,30 @@
 
+.container__menu-bar {    
+    margin-top: 20px;
+}
+
 .container__menu-bar > ul {
     display: flex;
     list-style: none;
     justify-content: space-around;
     font-size: 30px;
+    padding: 20px;
 }
 
-.container__menu-bar > ul > li > a{
+.container__menu-bar > ul > li > a {
     text-decoration: none;
+}
+
+.container__menu-bar > ul > li > a {
+    border: solid gray 2px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.container__menu-bar a:hover {
+    
+    cursor: pointer;
+    color: gray;
+    background-color: blue;
+    box-shadow: 10px 10px 10px gray;
 }
