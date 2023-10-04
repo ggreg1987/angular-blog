@@ -5,3 +5,7 @@
     justify-content: space-around;
     font-size: 30px;
 }
+
+.container__menu-bar > ul > li > a{
+    text-decoration: none;
+}
