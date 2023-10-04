@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.container__picture-card > picture > img {
+    height: 700px;
+    width: 1200px;
+    border-radius: 10px;
+}
