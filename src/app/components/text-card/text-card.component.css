@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    margin-top: 100px;
+}
+
+.container__left-text-discription  {
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+    width: 500px;
+}
+.container__left-text-discription > h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.container__left-text-discription > p {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+
+.container__left-text > img {
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+    word-break: break-all;
+}
