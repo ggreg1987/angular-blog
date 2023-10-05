@@ -8,23 +8,11 @@ import { Component, Input, OnInit } from '@angular/core';
 export class RightCardComponent implements OnInit {
 
   @Input()
-  firstImageRight: string = ""
+  imageRight: string = ""
   @Input()
-  firstH1Right: string = ""
+  h1Right: string = ""
   @Input()
-  firstPright: string = "";
-  @Input() 
-  secondImageRight: string = "";
-  @Input() 
-  secondH1Right: string = "";
-  @Input()
-  secondPright: string = "";
-  @Input()
-  thirdImageRight: string = "";
-  @Input()
-  thirdH1Right: string = "";
-  @Input()
-  thirdPright: string = "";
+  pRight: string = "";
 
   ngOnInit(): void {}
 
