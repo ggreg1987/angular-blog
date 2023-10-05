@@ -6,7 +6,7 @@
 .container__menu-bar > ul {
     display: flex;
     list-style: none;
-    justify-content: space-around;
+    justify-content: space-between;
     font-size: 30px;
     padding: 20px;
 }
