@@ -1,0 +1,20 @@
+.container__right-text {
+    width: 500px;
+    
+}
+
+.container__right-text-image {
+    display: flex;
+    align-items: center;
+}
+
+.container__right-text-image > img {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.container__right-text-image {
+    margin-bottom: 30px;
+}
