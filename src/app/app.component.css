@@ -5,3 +5,14 @@
     margin-left: 150px;
     width: 1150px;
 }
+
+.container__right-left-card {
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+
+.container__right-card {
+    display: flex;
+    flex-direction: column;
+}
