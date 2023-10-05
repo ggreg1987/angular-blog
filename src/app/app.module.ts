@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 import { PictureCardComponent } from './components/picture-card/picture-card.component';
-import { TextCardComponent } from './components/text-card/text-card.component';
+import { TextCardComponent } from './components/left-card/left-card.component';
 
 @NgModule({
   declarations: [

@@ -1,9 +1,9 @@
 import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-text-card',
-  templateUrl: './text-card.component.html',
-  styleUrls: ['./text-card.component.css']
+  selector: 'app-left-card',
+  templateUrl: './left-card.component.html',
+  styleUrls: ['./left-card.component.css']
 })
 export class TextCardComponent implements OnInit {
 
